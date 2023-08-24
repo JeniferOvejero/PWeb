@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=KoHo:ital@0;1&family=Passion+One&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: KoHo;
+}
+div{
+    display: flex;
+}
+aside {
+    background-color: #2F2D59;
+    color: white;
+    padding: 50px;
+}
+aside a{
+    color: #00BBD3;
+}
+main {
+    flex-grow: 1; /* Faz com que o conteúdo principal ocupe o restante da largura disponível */
+    padding: 50px;
+    color: #2F2D59;
+}
+
+header{
+    
+    background-color: #2F2D59;
+    color: white;
+    display: flex;
+    align-items: center;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    height: 67px;
+}
+nav a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 50px;
+    font-size: 16px;
+}
+nav a:hover{
+    color: #00BBD3;
+    text-decoration: underline;
+}
+footer{
+    background-color: #00BBD3;
+    text-align: center;
+}
+
+section{
+    background-color: #EEEEEE;
+    margin: 30px;
+    padding: 50px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+}
+h3{
+    margin: 20px 0px;
+    font-size: 24px;
+}
+p{
+    font-size: 16px;
+}
+.coluna-50{
+    width: 50%;
+}
+ul{
+    margin: 30px;
+}
+span{
+    color: #00BBD3;
+}
+
+.titulo{
+    justify-content: start;
+    margin: 0px 80px 0px 20px;
+}
+.vermelho{
+    color: #E24B5B;
+}
+p a{
+    text-decoration: none;
+    color: #00BBD3;
+    font-weight: 800;
+}
