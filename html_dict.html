@@ -4,9 +4,64 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Dicionário de Elementos HTML</title>
 </head>
 <body>
-    <h1>Teste</h1>
+    <header>
+        <h1>Página Pessoal</h1>
+        <nav>
+            <a href="index.html">Inicio</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h1>Dicionário de Elementos HTML</h1>
+            <div class="dicionario">
+                <ol>
+                    <li class="primeiro"><b>!DOCTYPE html:</b> Define a versão do documento HTML.</li>
+                    <li><b>html:</b> Elemento raiz que engloba todo o conteúdo da página.</li>
+                    <li><b>header:</b> Contém metadados da página, como metatags, links para estilos CSS, informações do autor e muito mais.
+                        <ul class="dic">
+                            <li><b>meta charset="UTF-8":</b> Define o conjunto de caracteres usado no documento como UTF-8, que inclui uma ampla variedade de caracteres para diferentes idiomas.</li>
+                            <li><b>meta http-equiv="X-UA-Compatible" content="IE=edge":</b> Especifica que a página deve ser exibida na versão mais recente do Internet Explorer.</li>
+                            <li><b>meta name="viewport" content="width=device-width, initial-scale=1.0":</b> Define a configuração da viewport para dispositivos móveis, garantindo um layout responsivo.</li>
+                            <li><b>link rel="stylesheet" href="style.css":</b> Importa um arquivo externo de estilo CSS chamado "style.css" para estilizar a página.</li>
+                            <li><b>title:</b> Define o título da página exibido na aba do navegador.</li>
+                        </ul>
+                    </li>
+                    <li><b>body:</b> Contém todo o conteúdo visível da página, incluindo texto, imagens, links e elementos estruturais.</li>
+                    <li><b>div class="container":</b> Um contêiner que envolve todo o conteúdo visível da página para aplicar estilos CSS.</li>
+                    <li><b>header:</b> A seção de cabeçalho da página que normalmente contém o logotipo, o título da página e a navegação.
+                        <ul class="dic">
+                            <li><b>h1:</b> Título principal da página.</li>
+                            <li><b>nav:</b> Elemento de navegação que contém links para diferentes seções da página.</li>
+                            <li><b>a:</b> Links para navegar para outras páginas ou âncoras internas na mesma página.</li>
+                        </ul>
+                    </li>
+                    <li><b>aside:</b> Uma seção lateral que normalmente contém informações relacionadas ao conteúdo principal.
+                        <ul class="dic">
+                            <li><b>img:</b> imagem</li>
+                            <li><b>h2:</b> Um subtítulo.</li>
+                            <li><b>address:</b> Um elemento HTML que fornece informações de contato.</li>
+                        </ul>
+                    </li>
+                    <li><b>main:</b> A seção principal do conteúdo da página.
+                        <ul class="dic">
+                            <li><b>section:</b> Uma seção dentro do main que contém informações agrupadas.</li>
+                            <li><b>h3:</b> Títulos de seção.</li>
+                            <li><b>p:</b> Parágrafos de texto.</li>
+                            <li><b>span:</b> Um elemento inline usado para estilizar parte do texto.</li>
+                            <li><b>ul:</b> Lista não ordenada.</li>
+                            <li><b>li:</b> Itens de lista.</li>
+                            <li><b>br:</b> Quebra de linha.</li>
+                        </ul>
+                    </li>
+                    <li><b>footer:</b> O rodapé da página que geralmente contém informações de direitos autorais ou créditos.</li>
+                </ol>
+            </div>
+        </section>
+    </main>
+    <footer>Página Pessoal Desenvolvida para a disciplina Programação Web - INE5646 UFSC.</footer>
 </body>
 </html>
