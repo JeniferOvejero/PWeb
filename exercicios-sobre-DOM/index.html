@@ -126,6 +126,13 @@
 
                 <script>
                     //adicione aqui o script para resolução do Exercício 10
+                    let numerosq = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+                    var quadrados = numerosq.map(function(item){
+                        return Math.pow(item, 2); //retorna o item original elevado ao quadrado
+                    });
+                    
+                    document.getElementById("saidaMap").innerText = quadrados
                 </script>
 
             <h3>Exercício 11</h3>
@@ -140,6 +147,15 @@
                 
                 <script>
                     //adicione aqui o script para resolução do Exercício 11
+                    let numerosp = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+                    function buscarNumerosPares (value) {
+                        if (value % 2 == 0) 
+                        return value;
+                    }
+                    var numerosPares = numerosp.filter(buscarNumerosPares);
+
+                    document.getElementById("saidaFilter").innerText = numerosPares
+
                 </script>
 
             <h3>Exercício 12</h3>
@@ -153,7 +169,11 @@
                 <p id="saidaReduce">Resultado do reduce aqui!</p>
 
                 <script>
-                    //adicione aqui o script para resolução do Exercício 12 
+                    //adicione aqui o script para resolução do Exercício 12
+                    let numeross = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+                    let total = numeross.reduce((total, numero) => total + numero, 0);
+                    document.getElementById("saidaReduce").innerText = total
+
                 </script>
 
             <h3>Exercício 13</h3>
@@ -166,7 +186,9 @@
                 <p id="saidaParesAoQuadradoMais42">Resultado aqui</p>
 
                 <script>
-                    //adicione aqui o script para resolução do Exercício 13 
+                    //adicione aqui o script para resolução do Exercício 13
+                    let total2 = quadrados.reduce((total, numero) => total + numero, 0);
+                    document.getElementById("saidaParesAoQuadradoMais42").innerText = total2+42
                 </script>
 
 </body>
